@@ -8,8 +8,7 @@
 <ul>
   @foreach (Car car in Model)
   {
-    <li>Model.Description</li>
-    <li>Model.Price</li>
+    <li>@car.Description, $@car.Price</li>
   }
   
 </ul>
